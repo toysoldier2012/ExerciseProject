@@ -8,8 +8,8 @@ Because nums[0] + nums[1] = 2 + 7 = 9,<br>
 return [0, 1].<br>
 
 # twoSumSolution1
-Time complexity O(n2)
-Space complexity O(1)
+* Time complexity O(n2)
+* Space complexity O(1)
 
 # twoSumSolution1
 Solution with a HashSet, save the left of target minus each number in array, 

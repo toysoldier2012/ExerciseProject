@@ -1,8 +1,9 @@
 # 11/09/2018
-* AddTwoNumbers
+* LeetCode #2 AddTwoNumbers
+* LeetCode #3 LongestSubString
 
 # 10/09/2018
-* TwoSum
+* LeetCode #1 TwoSum
 
 # 08/09/2018
 For now there are two project

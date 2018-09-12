@@ -12,4 +12,4 @@ Output: 7 -> 0 -> 8<br>
 Explanation: 342 + 465 = 807.<br>
 <br>
 # TIPS
-Why this problem is medium difficulty, just a quiet simple recursion problem, using recursion function is better
+Why this problem is medium difficulty, just a quiet simple recursion problem, if solve it by using recursion function is better

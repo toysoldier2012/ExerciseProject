@@ -1,12 +1,9 @@
-# 13/0902018
-* LeetCode #152 Maximum Product Subarray
-
 # 11/09/2018
-* LeetCode #2 Add Two Numbers
-* LeetCode #3 Longest SubString
+* LeetCode #2 AddTwoNumbers
+* LeetCode #3 LongestSubString
 
 # 10/09/2018
-* LeetCode #1 Two Sum
+* LeetCode #1 TwoSum
 
 # 08/09/2018
 For now there are two project

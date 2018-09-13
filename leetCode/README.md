@@ -1,5 +1,6 @@
 # 13/0902018
 * LeetCode #152 Maximum Product Subarray
+* LeetCode #404 Sum of Left Leaves
 
 # 11/09/2018
 * LeetCode #2 Add Two Numbers

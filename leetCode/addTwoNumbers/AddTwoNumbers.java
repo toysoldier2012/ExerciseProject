@@ -1,4 +1,4 @@
-package AddTwoNumbers;
+package leetCode.addTwoNumbers;
 
 /**
  * Definition for singly-linked list.

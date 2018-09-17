@@ -1,4 +1,7 @@
-# 13/0902018
+# 17/09/2018
+* LeetCode #143 Reorder List
+
+# 13/09/2018
 * LeetCode #152 Maximum Product Subarray
 * LeetCode #404 Sum of Left Leaves
 * LeetCode #290 Word Pattern

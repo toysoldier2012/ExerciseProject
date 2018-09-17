@@ -1,4 +1,4 @@
-package leetCode.longestSubstring;
+package leetCode.HashMap.longestSubstring;
 
 import java.util.HashMap;
 

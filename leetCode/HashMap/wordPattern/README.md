@@ -22,6 +22,5 @@ Output: false<br>
 Notes:<br>
 You may assume pattern contains only lowercase letters, and str contains lowercase letters separated by a single space.<br>
 <br>
-
 # Tips:
 Just a simple problem!

@@ -1,5 +1,6 @@
 # 17/09/2018
 * LeetCode #143 Reorder List
+* LeetCode #423 Reconstruct Original Digits from English
 
 # 13/09/2018
 * LeetCode #152 Maximum Product Subarray

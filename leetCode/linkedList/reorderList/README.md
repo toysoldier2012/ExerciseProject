@@ -12,8 +12,8 @@ Example 2:<br>
 Given 1->2->3->4->5, reorder it to 1->5->2->4->3.<br>
 <br>
 # Tips:
-Time complexity: O(n)<br>
-Space complexity: O(1);<br>
+* Time complexity: O(n)<br>
+* Space complexity: O(1);<br>
 <br>
 Step.1 split the singly-linked list in two part <br>
 Step.2 reverse the second part <br>

@@ -15,7 +15,7 @@ class Solution {
             if(s.charAt(i) == 'o') count[1]++;
             if(s.charAt(i) == 'i') count[9]++;
         }
-        
+
         count[3] -= count[8];
         count[5] -= count[4];
         count[7] -= count[5];

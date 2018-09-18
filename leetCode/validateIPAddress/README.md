@@ -15,23 +15,17 @@ Note: You may assume there is no extra space or special characters in the input 
 <br>
 Example 1:<br>
 Input: "172.16.254.1"<br>
-<br>
 Output: "IPv4"<br>
-<br>
 Explanation: This is a valid IPv4 address, return "IPv4".<br>
 <br>
 Example 2:<br>
 Input: "2001:0db8:85a3:0:0:8A2E:0370:7334"<br>
-<br>
 Output: "IPv6"
-<br>
 Explanation: This is a valid IPv6 address, return "IPv6".<br>
 <br>
 Example 3:<br>
 Input: "256.256.256.256"<br>
-<br>
 Output: "Neither"
-<br>
 Explanation: This is neither a IPv4 address nor a IPv6 address.<br>
 <br>
 # Tips:

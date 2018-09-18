@@ -36,5 +36,11 @@ Explanation: This is neither a IPv4 address nor a IPv6 address.<br>
 <br>
 # Tips:
 My solution is not quiet simple, so i need to make my mind clear<br>
-* For IPv4 address:
-	
+* For IPv4 address, the situations below is not allowed:
+1. Start or end with '.'
+2. More or less than 4 parts
+3. For each part, can't be empty and contains only the number enter 0-255(include)
+* For IPv6 address, the situations below is not allowed:
+1. Start or end with ':'
+2. More or less than 8 parts
+3. For each part, can't be empty and contains only 4 characters a-f/A-F or numbers 0-9

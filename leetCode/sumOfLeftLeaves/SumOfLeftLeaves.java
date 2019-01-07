@@ -1,14 +1,6 @@
 package leetCode.sumOfLeftLeaves;
 
-class TreeNode {
-	int val;
-	TreeNode left;
-	TreeNode right;
-
-	TreeNode(int x) {
-		val = x;
-	}
-}
+import leetCode.TreeNode;
 
 class Solution {
 	public int sumOfLeftLeaves(TreeNode root) {

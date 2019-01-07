@@ -35,11 +35,11 @@ public class LiuGuaiShou extends Hero {
 		return damage;
 	}
 	
-//	public double sixthSkill() {
-//		damage = baseDamage * 2.7 * (critDamage +1);
-//		System.out.println("伤害为："+ damage);
-//		return damage;
-//	}
+	public double sixthSkill() {
+		damage = baseDamage * 2.7 * (critDamage +1);
+		System.out.println("伤害为："+ damage);
+		return damage;
+	}
 
 	public double skillCast() {
 		double damage = 0;
@@ -65,10 +65,10 @@ public class LiuGuaiShou extends Hero {
 				System.out.println("*********触发了5技能*********");
 				damage += fifthSkill();
 			}
-//			if((int) (Math.random() * 4) == 0) {
-//				System.out.println("*********触发了6技能*********");
-//				damage += sixthSkill();
-//			}
+			if((int) (Math.random() * 4) == 0) {
+				System.out.println("*********触发了6技能*********");
+				damage += sixthSkill();
+			}
 			break;
 		case 1:
 			System.out.println("*********触发了2技能*********");
@@ -89,10 +89,10 @@ public class LiuGuaiShou extends Hero {
 				System.out.println("*********触发了5技能*********");
 				damage += fifthSkill();
 			}
-//			if((int) (Math.random() * 4) == 0) {
-//				System.out.println("*********触发了6技能*********");
-//				damage += sixthSkill();
-//			}
+			if((int) (Math.random() * 4) == 0) {
+				System.out.println("*********触发了6技能*********");
+				damage += sixthSkill();
+			}
 			break;
 		case 2:
 			System.out.println("*********触发了3技能*********");
@@ -113,10 +113,10 @@ public class LiuGuaiShou extends Hero {
 				System.out.println("*********触发了5技能*********");
 				damage += fifthSkill();
 			}
-//			if((int) (Math.random() * 4) == 0) {
-//				System.out.println("*********触发了6技能*********");
-//				damage += sixthSkill();
-//			}
+			if((int) (Math.random() * 4) == 0) {
+				System.out.println("*********触发了6技能*********");
+				damage += sixthSkill();
+			}
 			break;
 		case 3:
 			System.out.println("*********触发了4技能*********");
@@ -137,10 +137,10 @@ public class LiuGuaiShou extends Hero {
 				System.out.println("*********触发了5技能*********");
 				damage += fifthSkill();
 			}
-//			if((int) (Math.random() * 4) == 0) {
-//				System.out.println("*********触发了6技能*********");
-//				damage += sixthSkill();
-//			}
+			if((int) (Math.random() * 4) == 0) {
+				System.out.println("*********触发了6技能*********");
+				damage += sixthSkill();
+			}
 			break;
 		case 4:
 			System.out.println("*********触发了5技能*********");
@@ -161,35 +161,35 @@ public class LiuGuaiShou extends Hero {
 				System.out.println("*********触发了4技能*********");
 				damage += fourthSkill();
 			}
-//			if((int) (Math.random() * 4) == 0) {
-//				System.out.println("*********触发了6技能*********");
-//				damage += sixthSkill();
-//			}
+			if((int) (Math.random() * 4) == 0) {
+				System.out.println("*********触发了6技能*********");
+				damage += sixthSkill();
+			}
 			break;
-//		case 5:
-//			System.out.println("*********触发了6技能*********");
-//			damage += sixthSkill();
-//			if((int) (Math.random() * 4) == 0) {
-//				System.out.println("*********触发了1技能*********");
-//				damage += firstSkill();
-//			}
-//			if((int) (Math.random() * 4) == 0) {
-//				System.out.println("*********触发了2技能*********");
-//				damage += secondSkill();
-//			}
-//			if((int) (Math.random() * 4) == 0) {
-//				System.out.println("*********触发了3技能*********");
-//				damage += thirdSkill();
-//			}
-//			if((int) (Math.random() * 4) == 0) {
-//				System.out.println("*********触发了4技能*********");
-//				damage += fourthSkill();
-//			}
-//			if((int) (Math.random() * 4) == 0) {
-//				System.out.println("*********触发了5技能*********");
-//				damage += fifthSkill();
-//			}
-//			break;
+		case 5:
+			System.out.println("*********触发了6技能*********");
+			damage += sixthSkill();
+			if((int) (Math.random() * 4) == 0) {
+				System.out.println("*********触发了1技能*********");
+				damage += firstSkill();
+			}
+			if((int) (Math.random() * 4) == 0) {
+				System.out.println("*********触发了2技能*********");
+				damage += secondSkill();
+			}
+			if((int) (Math.random() * 4) == 0) {
+				System.out.println("*********触发了3技能*********");
+				damage += thirdSkill();
+			}
+			if((int) (Math.random() * 4) == 0) {
+				System.out.println("*********触发了4技能*********");
+				damage += fourthSkill();
+			}
+			if((int) (Math.random() * 4) == 0) {
+				System.out.println("*********触发了5技能*********");
+				damage += fifthSkill();
+			}
+			break;
 		}
 		return damage;
 	}

@@ -2,7 +2,7 @@ package axivIT.entites;
 
 import java.util.ArrayList;
 
-import axivIT.ToudeuseException;
+import axivIT.TondeuseException;
 import axivIT.traiter.Donnees;
 
 
@@ -12,7 +12,7 @@ public class Pelouse {
 	public Pelouse() {
 	}
 
-	public Pelouse(ArrayList<String> donneesList) throws NumberFormatException, ToudeuseException {
+	public Pelouse(ArrayList<String> donneesList) throws NumberFormatException, TondeuseException {
 		if(Donnees.verifierFormatCoordonneesPelouse(donneesList)) {
 			coordonneesPelouse.setX(Integer.parseInt(donneesList.get(0)));
 			coordonneesPelouse.setY(Integer.parseInt(donneesList.get(1)));			

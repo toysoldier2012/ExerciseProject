@@ -5,12 +5,16 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import axivIT.ToudeuseException;
+import axivIT.TondeuseException;
 import axivIT.commune.Commune;
 import axivIT.commune.Erreur;
 
+/**
+ * Le programme Fichier, sert ¨¤ s¨¦parer les donn¨¦es de 
+ * @author toysoldier
+ *
+ */
 public class Fichier {
-
 	Scanner scanner;
 	
 	public Fichier() {}
@@ -22,7 +26,7 @@ public class Fichier {
 		}
 	}
 	
-	public ArrayList<String> InfoPelouse() throws ToudeuseException {
+	public ArrayList<String> InfoPelouse() throws TondeuseException {
 		ArrayList<String> donneesPelouse = new ArrayList<String>();
 		
 		if(scanner.hasNext()) {
@@ -30,23 +34,23 @@ public class Fichier {
 					donneesPelouse.add(donne);
 			return donneesPelouse;
 		}
-		else throw new ToudeuseException(Erreur.PELOUSE_COORDONNEES_MANQUANTES);
+		else throw new TondeuseException(Erreur.PELOUSE_COORDONNEES_MANQUANTES);
 	}
 	
-	public ArrayList<String> InfoToudeuse() throws ToudeuseException {
-		ArrayList<String> donneesToudeuse = new ArrayList<String>();
+	public ArrayList<String> Infotondeuse() throws TondeuseException {
+		ArrayList<String> donneestondeuse = new ArrayList<String>();
 		
 		if(scanner.hasNext()) {
 			do {
 				for(String donnee : scanner.nextLine().split(Commune.CHAIN_ESPACE))
-					donneesToudeuse.add(donnee);
+					donneestondeuse.add(donnee);
 				if(!scanner.hasNext())
-					throw new ToudeuseException(Erreur.TOUDEUSE_INSTRUCTIONS_MANQUANTES);
-				donneesToudeuse.add(scanner.nextLine());
+					throw new TondeuseException(Erreur.TONDEUSE_INSTRUCTIONS_MANQUANTES);
+				donneestondeuse.add(scanner.nextLine());
 			}while(scanner.hasNext());
-			return donneesToudeuse;
+			return donneestondeuse;
 		}
 		else 			
-			throw new ToudeuseException(Erreur.TOUDEUSE_COORDONNEES_MANQUANTES);
+			throw new TondeuseException(Erreur.TONDEUSE_COORDONNEES_MANQUANTES);
 	}
 }

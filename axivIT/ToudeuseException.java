@@ -1,10 +1,10 @@
 package axivIT;
 
-public class TondeuseException extends Exception {
+public class ToudeuseException extends Exception {
 
 	private static final long serialVersionUID = -83357290825118472L;
 
-	public TondeuseException(String msg) {
+	public ToudeuseException(String msg) {
 		super(msg);
 	}
 

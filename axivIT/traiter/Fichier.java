@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import axivIT.ToudeuseException;
+import axivIT.TondeuseException;
 import axivIT.commune.Commune;
 import axivIT.commune.Erreur;
 
@@ -14,6 +14,11 @@ public class Fichier {
 	Scanner scanner;
 	
 	public Fichier() {}
+	
+	/**
+	 * Cr¨¦er le courant d'entr¨¦e scanner
+	 * @param file
+	 */
 	public Fichier(File file) {
 		try {
 			scanner = new Scanner(file);
@@ -22,7 +27,12 @@ public class Fichier {
 		}
 	}
 	
-	public ArrayList<String> InfoPelouse() throws ToudeuseException {
+	/**
+	 * Obtenir les informations de pelouse
+	 * @return ArrayList des informations de pelouse
+	 * @throws TondeuseException
+	 */
+	public ArrayList<String> InfoPelouse() throws TondeuseException {
 		ArrayList<String> donneesPelouse = new ArrayList<String>();
 		
 		if(scanner.hasNext()) {
@@ -30,23 +40,28 @@ public class Fichier {
 					donneesPelouse.add(donne);
 			return donneesPelouse;
 		}
-		else throw new ToudeuseException(Erreur.PELOUSE_COORDONNEES_MANQUANTES);
+		else throw new TondeuseException(Erreur.PELOUSE_COORDONNEES_MANQUANTES);
 	}
 	
-	public ArrayList<String> InfoToudeuse() throws ToudeuseException {
-		ArrayList<String> donneesToudeuse = new ArrayList<String>();
+	/**
+	 * Obtenir les informations de tondeuse
+	 * @return ArrayList des informations de tondeuse
+	 * @throws TondeuseException
+	 */
+	public ArrayList<String> InfoTondeuse() throws TondeuseException {
+		ArrayList<String> donneesTondeuse = new ArrayList<String>();
 		
 		if(scanner.hasNext()) {
 			do {
 				for(String donnee : scanner.nextLine().split(Commune.CHAIN_ESPACE))
-					donneesToudeuse.add(donnee);
+					donneesTondeuse.add(donnee);
 				if(!scanner.hasNext())
-					throw new ToudeuseException(Erreur.TOUDEUSE_INSTRUCTIONS_MANQUANTES);
-				donneesToudeuse.add(scanner.nextLine());
+					throw new TondeuseException(Erreur.TONDEUSE_INSTRUCTIONS_MANQUANTES);
+				donneesTondeuse.add(scanner.nextLine());
 			}while(scanner.hasNext());
-			return donneesToudeuse;
+			return donneesTondeuse;
 		}
 		else 			
-			throw new ToudeuseException(Erreur.TOUDEUSE_COORDONNEES_MANQUANTES);
+			throw new TondeuseException(Erreur.TONDEUSE_COORDONNEES_MANQUANTES);
 	}
 }

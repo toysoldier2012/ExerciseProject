@@ -6,7 +6,6 @@ import java.util.regex.Pattern;
 import axivIT.ToudeuseException;
 import axivIT.commune.Commune;
 import axivIT.commune.Erreur;
-import axivIT.entites.Toudeuse;
 
 import java.util.ArrayList;
 
@@ -43,10 +42,5 @@ public class Donnees {
 			throw new ToudeuseException(Erreur.TOUDEUSE_INSTRUCTION_INCORRECT);	
 		
 		return true;
-	}
-
-	public static void resultat(Toudeuse instance) {
-		System.out.println("[ Touleuse: Coordonnees est: ["+ instance.getCoordonnesToudeuse().toString() +
-				"], l'orientation est: "+ instance.getOrientationToudeuse().toString() +"]");
 	}
 }

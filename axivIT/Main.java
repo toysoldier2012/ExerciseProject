@@ -18,8 +18,7 @@ public class Main {
 		ArrayList<String> infoToudeuse = instance.InfoToudeuse();
 		Pelouse pelouse = new Pelouse(infoPelouse);
 		System.out.println(pelouse.toString());
-		Toudeuse toudeuse = new Toudeuse();
-		toudeuse.initialiserToudeuse(infoToudeuse, pelouse);
+		Toudeuse toudeuse = new Toudeuse(infoToudeuse);
 	}
 
 }

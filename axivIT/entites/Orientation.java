@@ -10,9 +10,4 @@ public class Orientation {
 	public void setOrientation(String orientation) {
 		this.orientation = orientation;
 	}
-	
-	@Override
-	public String toString() {
-		return orientation;
-	}
 }

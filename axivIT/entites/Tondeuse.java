@@ -22,7 +22,7 @@ public class Tondeuse {
 	 */
 	public void initialiserTondeuse(ArrayList<String> donneesList, Pelouse pelouse) throws TondeuseException {
 		for(int nombreTondeuse = 0; nombreTondeuse < (donneesList.size() / 4); nombreTondeuse++) {
-			if(Donnees.verifierFormatCoordonneesTondeuse(donneesList)) {
+			if(Donnees.verifierFormatInformationTondeuse(donneesList)) {
 				Tondeuse instance = new Tondeuse();
 				instance.pelouse = pelouse;
 				instance.coordonnesTondeuse.setX(Integer.parseInt(donneesList.get(nombreTondeuse * 4 + 0)));

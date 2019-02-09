@@ -18,7 +18,7 @@ public class Donnees {
 	 * @return vrai si le format de coordonn¨¦es fourni par le fichier est juste, sinon jeter l'exception
 	 * @throws TondeuseException
 	 */
-	public static boolean verifierFormatCoordonneesPelouse(ArrayList<String> donneesList) throws TondeuseException {
+	public static boolean verifierFormatInformationPelouse(ArrayList<String> donneesList) throws TondeuseException {
 		Pattern patternCoordonnees = Pattern.compile(Commune.REGEX_COORDONNEES_PELOUSE);
 		
 		for(String donnee : donneesList) {
@@ -36,7 +36,7 @@ public class Donnees {
 	 * @return vrai si le format des information fournis par le fichier est juste, sinon jeter l'exception
 	 * @throws TondeuseException
 	 */
-	public static boolean verifierFormatCoordonneesTondeuse(ArrayList<String> donneesList) throws TondeuseException {
+	public static boolean verifierFormatInformationTondeuse(ArrayList<String> donneesList) throws TondeuseException {
 		Matcher matcher;
 		Pattern patternCoordonneesTondeuse = Pattern.compile(Commune.REGEX_COORDONNEES_TONDEUSE);
 		Pattern patternOrientationTondeuse = Pattern.compile(Commune.REGEX_ORIENTATION_TONDEUSE);

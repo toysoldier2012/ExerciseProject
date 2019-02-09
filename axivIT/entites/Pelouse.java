@@ -18,7 +18,7 @@ public class Pelouse {
 	 * @throws TondeuseException
 	 */
 	public Pelouse(ArrayList<String> donneesList) throws NumberFormatException, TondeuseException {
-		if(Donnees.verifierFormatCoordonneesPelouse(donneesList)) {
+		if(Donnees.verifierFormatInformationPelouse(donneesList)) {
 			coordonneesPelouse.setX(Integer.parseInt(donneesList.get(0)));
 			coordonneesPelouse.setY(Integer.parseInt(donneesList.get(1)));			
 		}

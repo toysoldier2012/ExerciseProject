@@ -27,11 +27,17 @@ public class Main {
 		
 		Pelouse pelouse = new Pelouse(infoPelouse);
 		System.out.println(pelouse.toString());
-
+<<<<<<< HEAD
+<<<<<<< HEAD
 		tondeuse tondeuse = new tondeuse();
 		
 		tondeuse.initialisertondeuse(infoTondeuse, pelouse);
-
+=======
+		Toudeuse toudeuse = new Toudeuse(infoToudeuse);
+>>>>>>> parent of b6e1b03... Finish!
+=======
+		Toudeuse toudeuse = new Toudeuse(infoToudeuse);
+>>>>>>> parent of b6e1b03... Finish!
 	}
 
 }

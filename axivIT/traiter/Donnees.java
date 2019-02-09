@@ -9,10 +9,7 @@ import axivIT.commune.Erreur;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 import axivIT.entites.tondeuse;
-=======
->>>>>>> parent of b6e1b03... Finish!
 =======
 >>>>>>> parent of b6e1b03... Finish!
 =======
@@ -59,14 +56,11 @@ public class Donnees {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 
 	public static void resultat(Tondeuse instance) {
 		System.out.println("[ Touleuse: Coordonnees est: ["+ instance.getCoordonnestondeuse().toString() +
 				"], l'orientation est: "+ instance.getOrientationtondeuse().toString() +"]");
 	}
-=======
->>>>>>> parent of b6e1b03... Finish!
 =======
 >>>>>>> parent of b6e1b03... Finish!
 =======

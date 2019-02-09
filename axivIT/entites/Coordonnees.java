@@ -18,8 +18,4 @@ public class Coordonnees {
 		this.y = y;
 	}
 
-	@Override
-	public String toString() {
-		return Integer.toString(x) +", "+ Integer.toString(y);
-	}
 }
